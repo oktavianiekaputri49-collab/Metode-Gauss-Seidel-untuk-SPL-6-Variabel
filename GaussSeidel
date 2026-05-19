@@ -1,0 +1,44 @@
+📊 Metode Gauss-Seidel untuk SPL 6 Variabel
+Deskripsi
+Proyek ini membahas penyelesaian Sistem Persamaan Linear (SPL) dengan 6 variabel menggunakan Metode Gauss-Seidel. Persamaan diubah ke bentuk iteratif agar solusi dapat dihitung secara bertahap hingga mencapai kondisi konvergen.
+
+Sistem Persamaan
+Sistem persamaan linear yang digunakan:
+4x1​−x2​−x4​=0
+−x1​+4x2​−x3​−x5​=5
+−x2​+4x3​−x6​=0
+−x1​+4x4​−x5​=6
+−x2​−x4​+4x5​−x6​=−2
+−x3​−x5​+4x6​=6
+Kemudian diubah ke bentuk iteratif:
+x1​=1/4*​(x2​+x4​)
+x2​=1/4*​(5+x1​+x3​+x5​)
+x3​=1/4*​(x2​+x6​)
+x4​=1/4*​(6+x1​+x5​)
+x5​=1/4*​(−2+x2​+x4​+x6​)
+x6​=1/4*​(6+x3​+x5​)
+
+Metode & Tools
+Metode Numerik: Gauss-Seidel Iteration
+Software: Microsoft Excel
+Toleransi error: 0,05%
+Batas iterasi: 20
+Evaluasi menggunakan error relatif maksimum
+
+Hasil
+Sistem berhasil diselesaikan secara numerik
+Nilai iterasi menunjukkan proses konvergensi stabil
+Error relatif menurun hingga memenuhi toleransi
+Solusi diperoleh melalui pendekatan iteratif bertahap
+
+Tujuan Proyek
+Memahami metode iteratif pada SPL
+Menganalisis konvergensi metode Gauss-Seidel
+Mengimplementasikan metode numerik menggunakan Excel
+Melatih perhitungan error relatif setiap iterasi
+
+Insight
+Metode Gauss-Seidel efektif untuk menyelesaikan SPL berukuran besar karena menggunakan nilai terbaru pada setiap iterasi sehingga konvergensi cenderung lebih cepat dibanding metode iteratif dasar lainnya.
+
+Penutup
+Proyek ini merupakan latihan metode numerik untuk memahami proses penyelesaian sistem persamaan linear secara iteratif serta analisis konvergensi menggunakan pendekatan numerik.
